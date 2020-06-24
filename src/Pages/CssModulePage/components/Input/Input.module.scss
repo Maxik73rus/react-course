@@ -1,0 +1,12 @@
+.input{
+  width: 100px;
+  &:global(.input-focus) {
+    background: greenyellow;
+  }
+  &:global(.input-over) {
+    background: blue;
+  }
+  &.wide{
+    width: 200px;
+  }
+}
