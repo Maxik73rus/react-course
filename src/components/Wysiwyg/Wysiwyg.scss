@@ -19,4 +19,13 @@
   img{
     margin: 1rem;
   }
+  table {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    border: 2px solid grey;
+  }
+  th,td {
+    border: 2px solid grey;
+  }
 }
